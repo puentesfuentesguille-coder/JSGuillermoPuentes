@@ -19,8 +19,8 @@ let e = 1
 console.log(e)
 
 //Exercici 5
-const f = 'Hola'
-console.log(f)
+const F = 'Hola'
+console.log(F)
 
-f = 25
-console.log(f)
+F = 25
+console.log(F)
