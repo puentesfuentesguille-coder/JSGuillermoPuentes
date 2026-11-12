@@ -59,4 +59,25 @@ function exercici7() {
 console.log(exercici7());
 console.log("==========================");
 
+//Ex8
+function comprobarTreinta(num1, num2) {
+    return num1 === 30 || num2 === 30 || (num1 + num2 === 30);
+}
+
+console.log(comprobarTreinta(30, 5));
+console.log(comprobarTreinta(15, 15));
+console.log(comprobarTreinta(10, 5));
+console.log("==========================");
+
+//Ex9
+const comprobarTreinta2 = function(num1, num2) {
+    return num1 === 30 || num2 === 30 || (num1 + num2 === 30);
+};
+
+console.log(comprobarTreinta2(30, 5));
+console.log(comprobarTreinta2(15, 15));
+console.log(comprobarTreinta2(10, 5));
+console.log("==========================");
+
+
 
