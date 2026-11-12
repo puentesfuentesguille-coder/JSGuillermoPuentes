@@ -79,5 +79,19 @@ console.log(comprobarTreinta2(15, 15));
 console.log(comprobarTreinta2(10, 5));
 console.log("==========================");
 
+//Ex 10
+const Ex10 = (a, b) => a === b;
+
+console.log(Ex10(5, 5));
+console.log(Ex10(5, "5"));
+console.log(Ex10(true, false));
+console.log("==========================");
+
+//Ex 11
+const raizCuadrada = (numero) => Number(Math.sqrt(numero).toFixed(2));
+
+console.log(raizCuadrada(7));
+console.log("==========================");
+
 
 
