@@ -93,5 +93,19 @@ const raizCuadrada = (numero) => Number(Math.sqrt(numero).toFixed(2));
 console.log(raizCuadrada(7));
 console.log("==========================");
 
+//Ex 12
+const ex12 = texto => texto.toLowerCase();
+
+console.log(ex12("HEYY MUY BUENAS A TODOS GUAPISIMOOS"));
+console.log("==========================");
+
+//Ex 13
+const noEsNull = (a, b) => a ?? b;
+
+console.log(noEsNull(null, "Sisisi"));
+console.log(noEsNull(":V", null));
+console.log(noEsNull(0, null));
+console.log("==========================");
+
 
 
