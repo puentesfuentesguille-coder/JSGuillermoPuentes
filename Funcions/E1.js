@@ -107,5 +107,28 @@ console.log(noEsNull(":V", null));
 console.log(noEsNull(0, null));
 console.log("==========================");
 
+//Ex 14
+const posicio = (frase, paraula) => {
+    let indice = frase.indexOf(paraula);
+    return frase.length - indice;
+};
+
+const dividir = (frase, paraula) => {
+    let distancia = posicio(frase, paraula);
+    return frase.slice(distancia);
+};
+
+console.log(posicio("Hola com estàs", "com"));
+console.log(dividir("Hola com estàs", "com"));
+console.log("==========================");
+
+//Ex 15
+const ex15 = (x) => x + x + x;
+
+console.log(ex15(5));
+console.log(ex15("Hola "));
+console.log("==========================");
+
+
 
 
