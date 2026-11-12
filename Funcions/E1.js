@@ -23,10 +23,7 @@ data()
 console.log("==========================")
 
 //Ex 4
-function saludar() {
-    let mensaje = "Hola";
-}
-console.log(mensaje);
+
 console.log("==========================")
 
 //Ex 5
@@ -39,9 +36,27 @@ function contarVocales(texto) {
             contador++;
         }
     }
-
     return contador;
 }
-
 console.log(contarVocales("Hola mundo"));
+console.log("==========================")
+
+
+//Ex 6
+function sumarTresNumeros(num1, num2, num3 = 10) {
+    return num1 + num2 + num3;
+}
+
+console.log(sumarTresNumeros(5, 3));
+console.log("==========================")
+
+//Ex 7
+function exercici7() {
+    data();
+    return sumarTresNumeros(5, 3);
+}
+
+console.log(exercici7());
+console.log("==========================");
+
 
