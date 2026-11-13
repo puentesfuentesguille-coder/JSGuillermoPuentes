@@ -68,3 +68,19 @@ ex4(14)
 ex4(21)
 ex4(27)
 console.log("===================================")
+console.log("===============Ex5=================")
+
+function ex5(x) {
+    let suma = 0;
+    let n = 0;
+
+    for (let i = 1; suma + i <= x; i++) {
+        suma += i;
+        n = i;
+    }
+
+    return n;
+}
+
+console.log(ex5(15));
+console.log("===================================")
