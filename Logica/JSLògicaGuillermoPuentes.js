@@ -23,3 +23,22 @@ function ex2 (x,y){
 }
 ex2(20,80)
 console.log("===================================")
+console.log("===============Ex3=================")
+
+function ex3 (x){
+    if (x<5){
+        console.log("Suspès")
+    }else if(x<6){
+        console.log("Suficient")
+    }else if(x<7){
+        console.log("Bé")
+    }else if(x<9){
+        console.log("Notable")
+    }else if(x<=10){
+        console.log("Excel·lent ")
+    }
+}
+ex3(4.75)
+ex3(9)
+ex3(7.66)
+console.log("===================================")
