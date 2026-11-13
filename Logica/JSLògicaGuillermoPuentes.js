@@ -42,3 +42,29 @@ ex3(4.75)
 ex3(9)
 ex3(7.66)
 console.log("===================================")
+console.log("===============Ex4=================")
+
+function ex4(numero){
+    switch (true){
+        case (numero % 3 === 0 && numero % 7 === 0):
+            console.log(numero+" es multiple de 3 i de 7")
+            break;
+
+        case (numero % 3 === 0):
+            console.log(numero+" es multiple de 3")
+            break;
+
+        case (numero % 7 === 0):
+            console.log(numero+" es multiple de 7")
+            break;
+
+        default:
+            console.log("No es multiple ni de 3 ni de 7")
+            break;
+    }
+}
+ex4(5)
+ex4(14)
+ex4(21)
+ex4(27)
+console.log("===================================")
