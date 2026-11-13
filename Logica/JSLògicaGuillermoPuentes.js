@@ -84,3 +84,15 @@ function ex5(x) {
 
 console.log(ex5(15));
 console.log("===================================")
+console.log("===============Ex6=================")
+
+function ex6(text,suma){
+    for (let i = 0; i < text.length;i++){
+        if (!isNaN(text[i])) {
+            suma += Number(text[i])
+        }
+    }
+    return suma;
+}
+console.log(ex6("Buenos dis 5 señora 10",0))
+console.log("===================================")
