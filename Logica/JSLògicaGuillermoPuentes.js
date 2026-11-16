@@ -129,13 +129,13 @@ ex8(7)
 console.log("===================================")
 console.log("===============Ex9=================")
 
-function ex9(base){
+function ex9(base, asteriscos = ""){
     for (let i = 0; i< base; i++) {
-        let asteriscos = asteriscos + "*"
+        asteriscos += "*"
         console.log(asteriscos)
     }
 }
-ex9(6)
+ex9(5)
 console.log("===================================")
 console.log("===============Ex10================")
 
@@ -158,16 +158,17 @@ ex10()
 console.log("===================================")
 console.log("===============Ex11================")
 
-function ex9(base){
-    for (let i = 1; i< base; i++){
-        console.log("")
-        for (let j = 0; j < i; j++){
-            process.stdout.write("* ");
+function ex11(base,asteriscos = ""){
+    for (let i = 0; i< base; i++) {
+        asteriscos += "*"
+        if (i % 2 !== 0){
+            continue
         }
+        console.log(asteriscos)
+
     }
-    console.log("")
 }
-ex9(6)
+ex11(5)
 console.log("===================================")
 console.log("===============Ex12================")
 
