@@ -96,3 +96,22 @@ function ex6(text,suma){
 }
 console.log(ex6("Buenos dis 5 señora 10",0))
 console.log("===================================")
+
+console.log("===============Ex7=================")
+
+function ex7(numeros =[]){
+    let auxiliar
+    console.log(numeros)
+    for(let i = 0; i < numeros.length;i++){
+        for(let j = 0; j< numeros.length-1-i;j++){
+            if (numeros[j]<numeros[j+1]){
+                auxiliar = numeros[j]
+                numeros[j] = numeros[j+1]
+                numeros[j+1] = auxiliar
+            }
+        }
+    }
+    console.log(numeros)
+}
+ex7([1,5,9])
+console.log("===================================")
