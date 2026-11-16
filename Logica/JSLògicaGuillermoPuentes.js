@@ -127,3 +127,58 @@ function ex8(enter){
 }
 ex8(7)
 console.log("===================================")
+console.log("===============Ex9=================")
+
+function ex9(base){
+    for (let i = 1; i< base; i++){
+        console.log("")
+        for (let j = 0; j < i; j++){
+            process.stdout.write("* ");
+        }
+    }
+    console.log("")
+
+}
+ex9(6)
+console.log("===================================")
+console.log("===============Ex10=================")
+
+function ex9(base){
+    for (let i = 1; i< base; i++){
+        console.log("")
+        for (let j = 0; j < i; j++){
+            process.stdout.write("* ");
+        }
+    }
+    console.log("")
+
+}
+ex9(6)
+console.log("===================================")
+console.log("===============Ex11=================")
+
+function ex9(base){
+    for (let i = 1; i< base; i++){
+        console.log("")
+        for (let j = 0; j < i; j++){
+            process.stdout.write("* ");
+        }
+    }
+    console.log("")
+
+}
+ex9(6)
+console.log("===================================")
+console.log("===============Ex12=================")
+
+function ex12(numero){
+    let sisisi = String(numero)
+    let final = ""
+    console.log(numero)
+    for (let i = 0;i < sisisi.length -1; i +=2 ){
+        final += sisisi[i+1] + sisisi[i]
+    }
+    console.log(final)
+}
+ex12(123456)
+console.log("===================================")
