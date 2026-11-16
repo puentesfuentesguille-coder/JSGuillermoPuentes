@@ -135,9 +135,28 @@ function ex9(base){
         console.log(asteriscos)
     }
 }
-ex9(5)
+ex9(6)
 console.log("===================================")
-console.log("===============Ex10=================")
+console.log("===============Ex10================")
+
+function ex10(suma = 0,numeros = 0){
+    do {
+        numeros++
+
+        if ((numeros % 3 == 0 || numeros % 5 == 0) && (suma + numeros) < 1000) {
+                suma += numeros
+                console.log("Numero sumat: " + numeros)
+
+        }else if((suma + numeros) > 1000){
+            break
+        }
+
+    }while(suma  < 1000)
+    console.log("Total: "+suma)
+}
+ex10()
+console.log("===================================")
+console.log("===============Ex11================")
 
 function ex9(base){
     for (let i = 1; i< base; i++){
@@ -147,25 +166,10 @@ function ex9(base){
         }
     }
     console.log("")
-
 }
 ex9(6)
 console.log("===================================")
-console.log("===============Ex11=================")
-
-function ex9(base){
-    for (let i = 1; i< base; i++){
-        console.log("")
-        for (let j = 0; j < i; j++){
-            process.stdout.write("* ");
-        }
-    }
-    console.log("")
-
-}
-ex9(6)
-console.log("===================================")
-console.log("===============Ex12=================")
+console.log("===============Ex12================")
 
 function ex12(numero){
     let sisisi = String(numero)
