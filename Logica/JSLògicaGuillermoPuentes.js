@@ -130,16 +130,12 @@ console.log("===================================")
 console.log("===============Ex9=================")
 
 function ex9(base){
-    for (let i = 1; i< base; i++){
-        console.log("")
-        for (let j = 0; j < i; j++){
-            process.stdout.write("* ");
-        }
+    for (let i = 0; i< base; i++) {
+        let asteriscos = asteriscos + "*"
+        console.log(asteriscos)
     }
-    console.log("")
-
 }
-ex9(6)
+ex9(5)
 console.log("===================================")
 console.log("===============Ex10=================")
 
