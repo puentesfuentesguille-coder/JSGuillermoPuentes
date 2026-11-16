@@ -96,7 +96,6 @@ function ex6(text,suma){
 }
 console.log(ex6("Buenos dis 5 señora 10",0))
 console.log("===================================")
-
 console.log("===============Ex7=================")
 
 function ex7(numeros =[]){
@@ -114,4 +113,17 @@ function ex7(numeros =[]){
     console.log(numeros)
 }
 ex7([1,5,9])
+console.log("===================================")
+console.log("===============Ex8=================")
+
+function ex8(enter){
+    for (let i = 0; i < enter;i++){
+        if (i % 2 == 0){
+            console.log(i+" es parell")
+        }else{
+            console.log(i+" es senar")
+        }
+    }
+}
+ex8(7)
 console.log("===================================")
