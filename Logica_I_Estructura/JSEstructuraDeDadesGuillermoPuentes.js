@@ -11,3 +11,8 @@ console.log(numeros[0],numeros[numeros.length-1])
 
 console.log("===================================")
 
+console.log("===============Ex2=================")
+let copia = [...numeros]
+console.log(copia)
+console.log("===================================")
+
