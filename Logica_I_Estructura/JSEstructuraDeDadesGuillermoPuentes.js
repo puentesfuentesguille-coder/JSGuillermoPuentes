@@ -53,3 +53,15 @@ let si = paraules.filter(paraula => paraula.split("a").length - 1 > 1);
 
 console.log(si);
 console.log("===================================")
+
+console.log("===============Ex7=================")
+let dades = new Map();
+
+dades.set("nom", "Pedro Picapiedra");
+dades.set(10, "Un saludo al 10");
+dades.set(true, "Mas cierto que cierto");
+
+console.log(dades);
+console.log(dades.get("nom"));
+console.log("===================================")
+
