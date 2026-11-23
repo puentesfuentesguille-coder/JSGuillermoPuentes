@@ -65,3 +65,20 @@ console.log(dades);
 console.log(dades.get("nom"));
 console.log("===================================")
 
+console.log("===============Ex8=================")
+
+let paraula = "holaloh";
+let cua = paraula.split("");
+let paraulaInvertida = "";
+
+while (cua.length > 0) {
+    let caracter = cua.shift();
+    paraulaInvertida = caracter + paraulaInvertida;
+}
+
+let verdad = (paraula === paraulaInvertida);
+
+console.log("La paraula és palíndrom? " + verdad);
+console.log("===================================")
+
+
