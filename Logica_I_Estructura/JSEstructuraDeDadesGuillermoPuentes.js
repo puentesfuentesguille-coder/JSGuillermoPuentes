@@ -111,3 +111,23 @@ console.log(peli1);
 console.log("--- Pel·lícula 2 (Literal) ---");
 console.log(peli2);
 console.log("===================================")
+
+console.log("===============Ex10=================")
+
+let cuaPellicules = [];
+cuaPellicules.push(peli1);
+cuaPellicules.push(peli2);
+
+let mesAntiga = cuaPellicules.shift();
+
+while (cuaPellicules.length > 0) {
+    let peliActual = cuaPellicules.shift();
+
+    if (peliActual.anyEstrena < mesAntiga.anyEstrena) {
+        mesAntiga = peliActual;
+    }
+}
+
+console.log("La pel·lícula més antiga és:");
+console.log(mesAntiga);
+console.log("===================================")
