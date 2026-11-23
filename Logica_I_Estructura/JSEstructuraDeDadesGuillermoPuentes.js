@@ -37,3 +37,19 @@ noduplicat = [...new Set(duplicats)]
 console.log(noduplicat)
 console.log(duplicats)
 console.log("===================================")
+
+console.log("===============Ex5=================")
+let numeros2 = [1,5,10]
+
+let cubs = numeros2.map(num => num ** 3);
+
+console.log(cubs);
+console.log("===================================")
+
+console.log("===============Ex6=================")
+let paraules = ["holaaa", "claro", "algo", "alga", "panama"];
+
+let si = paraules.filter(paraula => paraula.split("a").length - 1 > 1);
+
+console.log(si);
+console.log("===================================")
