@@ -5,8 +5,8 @@ for (let i = 0; i < 5; i++){
     numeros[i] = aleatorio(1,10)
 }
 
-numeros.sort()
-
+numeros.sort((a, b) => a - b)
+console.log(numeros)
 console.log(numeros[0],numeros[numeros.length-1])
 
 console.log("===================================")
@@ -14,5 +14,19 @@ console.log("===================================")
 console.log("===============Ex2=================")
 let copia = [...numeros]
 console.log(copia)
+console.log("===================================")
+
+console.log("===============Ex3=================")
+let duplicats = [...numeros,...copia]
+let noduplicat = []
+
+for (i of duplicats){
+    if (!noduplicat.includes(i)){
+        noduplicat.push(i)
+    }
+}
+
+console.log(noduplicat)
+console.log(duplicats)
 console.log("===================================")
 
