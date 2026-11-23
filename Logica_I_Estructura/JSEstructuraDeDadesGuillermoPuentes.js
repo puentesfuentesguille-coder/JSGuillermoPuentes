@@ -30,3 +30,10 @@ console.log(noduplicat)
 console.log(duplicats)
 console.log("===================================")
 
+console.log("===============Ex4=================")
+duplicats = [...numeros, ...copia]
+noduplicat = [...new Set(duplicats)]
+
+console.log(noduplicat)
+console.log(duplicats)
+console.log("===================================")
