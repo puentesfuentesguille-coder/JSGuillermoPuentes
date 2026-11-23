@@ -131,3 +131,22 @@ while (cuaPellicules.length > 0) {
 console.log("La pel·lícula més antiga és:");
 console.log(mesAntiga);
 console.log("===================================")
+
+console.log("===============Ex11=================")
+
+peli1.actors = ["Mike Myers", "Eddie Murphy", "Cameron Diaz"];
+peli2.actors = ["Matthew McConaughey", "Anne Hathaway"];
+
+cuaPellicules.push(peli1);
+cuaPellicules.push(peli2);
+
+while (cuaPellicules.length > 0) {
+    let peliActual = cuaPellicules.shift();
+    console.log("Actors de " + peliActual.titol + ":");
+
+    for (let actor of peliActual.actors) {
+        console.log("- " + actor);
+    }
+}
+
+console.log("===================================")
