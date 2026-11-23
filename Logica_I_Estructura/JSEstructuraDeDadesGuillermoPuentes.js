@@ -81,4 +81,33 @@ let verdad = (paraula === paraulaInvertida);
 console.log("La paraula és palíndrom? " + verdad);
 console.log("===================================")
 
+console.log("===============Ex9=================")
 
+class Pellicula {
+    constructor(titol, descripcio, anyEstrena) {
+        this.titol = titol;
+        this.descripcio = descripcio;
+        this.anyEstrena = anyEstrena;
+    }
+}
+
+let peli1 = new Pellicula(
+    "Srhek",
+    "Un ogro verde",
+    2010
+);
+
+
+let peli2 = {
+    titol: "Interstellar",
+    descripcio: "no se no me la he visto, del espacio o algo asi",
+    anyEstrena: 2014
+};
+
+
+console.log("--- Pel·lícula 1 (Class + new) ---");
+console.log(peli1);
+
+console.log("--- Pel·lícula 2 (Literal) ---");
+console.log(peli2);
+console.log("===================================")
